@@ -21,7 +21,7 @@
     left: 0;
     width: 100%;
     height: 700px;
-    background: url("/Users/infayoudigital/Downloads/live project/frontend/public/image1.png") center/cover no-repeat;
+    background: url("/image1.png") center/cover no-repeat;
     filter: brightness(40%);
   }
   
