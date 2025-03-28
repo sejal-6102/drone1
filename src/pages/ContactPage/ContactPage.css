@@ -1,0 +1,39 @@
+.contact-container {
+    padding: 40px 0;
+}
+
+/* Centered Form Wrapper */
+.form-wrapper {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+}
+
+/* Glassmorphism with Solid Dark Blue Background */
+.form-container {
+    position: relative;
+    background: rgba(10, 10, 80, 0.9); /* Solid dark blue */
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 460px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Form Inputs */
+.form-container input,
+.form-container select {
+    background: white; /* White background for all inputs */
+    color: black; /* Black text inside inputs */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px;
+    border-radius: 6px;
+}
+
+/* Ensure placeholder text is also black */
+.form-container input::placeholder,
+.form-container select {
+    color: black;
+}

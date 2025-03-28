@@ -1,0 +1,39 @@
+.custom-card {
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container {
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-card:hover .card-img {
+    transform: scale(1.1);
+  }
+  
+  .custom-button {
+    background: linear-gradient(135deg, #5e0603, #da1a1a);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .custom-button:hover {
+    background: linear-gradient(135deg, #670606, #ee3636);
+  }
+  
+  .custom-button.clicked {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  

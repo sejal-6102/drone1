@@ -1,0 +1,32 @@
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 15s linear infinite;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  width: 120px; /* Adjust based on logo size */
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Infinite scroll animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
