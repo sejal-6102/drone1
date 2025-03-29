@@ -7,6 +7,7 @@ import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
 import WhatsAppChat from "../../Components/WhatsAppChat";
 import "./Aboutus.css";
+import image from "../../assets/img/image1.png";
 
 const cofounders = [
   { name: "Prem Kumar Vislawath", image: "/co.png", linkedin: "#" },
@@ -23,7 +24,9 @@ const AboutUs = () => {
     <>
       <Navbar />
       <div className="about-us-section">
-        <div className="about-us-bg"></div>
+        <div className="about-us-bg"   style={{
+        backgroundImage: `url(${image})`,
+      }}></div>
         <div className="about-us-content" data-aos="fade-up">
           <p className="small-text">About Us</p>
           <h1 className="main-text">What started as an Idea is now more than that</h1>
