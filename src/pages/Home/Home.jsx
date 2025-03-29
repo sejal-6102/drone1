@@ -19,7 +19,6 @@ function Home() {
   const location = useLocation();
 
   useEffect(() => {
-    // Check if the URL contains #our-partners
     if (location.hash === "#our-partners") {
       const element = document.getElementById("our-partners");
       if (element) {

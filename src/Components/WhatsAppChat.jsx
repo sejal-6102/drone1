@@ -8,7 +8,7 @@ const WhatsAppChat = () => {
 
   return (
     <div className="whatsapp-container">
-      {/* Chat Box */}
+ 
       {isOpen && (
         <motion.div
           className="whatsapp-chatbox"
@@ -30,7 +30,6 @@ const WhatsAppChat = () => {
         </motion.div>
       )}
 
-      {/* Expand/Collapse Button */}
       <motion.div
         className="whatsapp-toggle"
         onClick={() => setIsOpen(!isOpen)}
@@ -39,7 +38,7 @@ const WhatsAppChat = () => {
         {isOpen ? "⬇" : "💬"}
       </motion.div>
 
-      {/* Floating WhatsApp Icon (always visible) */}
+    
       <a
         href="https://wa.me/yourphonenumber"
         target="_blank"

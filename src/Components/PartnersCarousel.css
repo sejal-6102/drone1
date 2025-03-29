@@ -13,7 +13,7 @@
 
 .carousel-item {
   flex: 0 0 auto;
-  width: 120px; /* Adjust based on logo size */
+  width: 120px; 
 }
 
 .carousel-item img {
@@ -21,7 +21,6 @@
   height: auto;
 }
 
-/* Infinite scroll animation */
 @keyframes scroll {
   from {
     transform: translateX(0);

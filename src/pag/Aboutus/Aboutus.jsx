@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "./Aboutus.css"; // Custom CSS for styling
+import "./Aboutus.css";
 
 const AboutUs = () => {
   return (
