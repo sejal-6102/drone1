@@ -41,7 +41,7 @@ const CoreTeam = () => {
         <div
           className="hero-section text-center text-white d-flex flex-column justify-content-center align-items-center position-relative"
           style={{
-            backgroundImage: `url('/team.png')`,
+            backgroundImage: `url('/public/team.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "70vh",

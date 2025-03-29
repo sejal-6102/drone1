@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
         <Carousel className="mb-5">
           {[1, 2].map((_, index) => (
             <Carousel.Item key={index}>
-              <div className="carousel-bg" style={{ backgroundImage: "url('/team.png')" }}>
+              <div className="carousel-bg" style={{ backgroundImage: "url('/public/team.png')" }}>
                 <div className="carousel-content" data-aos="fade-up">
                   <h3>{index === 0 ? "One more for good measure." : "Second Slide Heading"}</h3>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
