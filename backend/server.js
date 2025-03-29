@@ -38,6 +38,11 @@ app.post("/submit-form", async (req, res) => {
   }
 });
 
+
+app.get("/hello", (req, res) => {
+  res.json({ message: "Hello from Vercel!" });
+});
+
 // Start Server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
