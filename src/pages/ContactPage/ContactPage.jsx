@@ -13,6 +13,8 @@ const ContactPage = () => {
     AOS.init({ duration: 1000 });
   }, []);
 
+  const backUrl = process.env.REACT_APP_BACK_URL
+  console.log(backUrl,"backurl")
   const [formData, setFormData] = useState({
     phone: "",
     state: "",
@@ -27,7 +29,7 @@ const ContactPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8000/submit-form", formData);
+      const response = await axios.post(`${backUrl}/submit-form`, formData);
       alert(response.data.message);
       setFormData({ phone: "", state: "", language: "", interestedProduct: "" });
     } catch (error) {
