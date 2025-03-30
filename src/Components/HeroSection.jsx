@@ -35,7 +35,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            We build Drones for <br />
+            We build <br />
             <span className="changing-text">{changingTexts[textIndex]}</span>
           </motion.h1>
 
