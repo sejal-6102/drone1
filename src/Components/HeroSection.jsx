@@ -40,7 +40,7 @@ const HeroSection = () => {
           </motion.h1>
 
           <p className="hero-subtext" data-aos="fade-up">
-            AG 365 – India’s 1st Multi Utility DGCA Certified Agri Drone. <br />
+            AG  – India’s 1st Multi Utility DGCA Certified Agri Drone. <br />
             Buying AG 365 is now easy with Govt Subsidy, Loan, and Insurance.
           </p>
 
