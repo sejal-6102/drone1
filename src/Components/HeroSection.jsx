@@ -41,7 +41,7 @@ const HeroSection = () => {
 
           <p className="hero-subtext" data-aos="fade-up">
             AG  – India’s 1st Multi Utility DGCA Certified Agri Drone. <br />
-            Buying AG 365 is now easy with Govt Subsidy, Loan, and Insurance.
+            Buying AG Subsidy, Loan, and Insurance.
           </p>
 
           <motion.a
